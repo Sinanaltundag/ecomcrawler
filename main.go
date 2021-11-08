@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"os"
 	"os/signal"
-	crw "projeler/collya/crawl"
-	dbi "projeler/collya/db"
-	deg "projeler/collya/degisken"
+	crw "github.com/ecomcrawler/crawl"
+	dbi "github.com/ecomcrawler/db"
+	deg "github.com/ecomcrawler/degisken"
 	"syscall"
 
 	_ "github.com/go-sql-driver/mysql"
