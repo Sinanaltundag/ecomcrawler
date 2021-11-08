@@ -9,8 +9,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	deg "projeler/collya/degisken"
-	yar "projeler/collya/yardimci"
+	deg "github.com/ecomcrawler/degisken"
+	yar "github.com/ecomcrawler/yardimci"
 
 	_ "github.com/go-sql-driver/mysql"
 )
